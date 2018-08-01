@@ -17,7 +17,7 @@ Author: Jyoti Bhanot <jyoti.bhanot30@gmail.com>
  Points:
  - Retention unit is days. 
  - Only 1 AMI backup will be creadted/retained for one day.
- - Naming convention for AMIs : Lambda - <instanceId> from <current date in YYYY-MM-DD>
+ - Naming convention for AMIs : ```Lambda - <instanceId> from <current date in YYYY-MM-DD>```
 
 ## lambdaAMICleanup.py --
  This script will search for all instances with tags from ['backup', 'Backup', 'Backup', 'backUp', 'BACKUP']
